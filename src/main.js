@@ -8,6 +8,12 @@ const config = {
     height: 600,
     parent: 'game-container',
     backgroundColor: '#1d212d',
+    physics:{
+        default:'arcade',
+        arcade:{
+            gravity: {y: 1000},
+        }
+    },
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_HORIZONTALLY,
